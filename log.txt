@@ -1,0 +1,15 @@
+X THIS PAGE LOGS ALL LIRI REQUESTS
+
+MOVIE-THIS REQUEST:  Title: : Mission: Impossible - Ghost Protocol // Year: 2011 // IMDB Rating: 7.4/10 // Rotten Tomoatoes Rating: 93% Country of Production: USA, United Arab Emirates, Czech Republic Language: English, Russian, French, Arabic, Swedish // Plot: The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name. // Actors: Tom Cruise, Paula Patton, Simon Pegg, Jeremy Renner
+
+CONCERT THIS REQUEST: Artist: -drake // Venue Name: Scotiabank Arena // Location: Toronto,,Canada // Date: 08/21/18
+
+CONCERT THIS REQUEST: Artist: -taylor-swift // Venue Name: Nissan Stadium // Location: Nashville,TN,United States // Date: 08/25/18
+
+SPOTIFY-THIS-SONG REQUEST : Search Term: NaNAce of Base // Song's Name: The Sign // Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=4792344e181a457ca8f6722f7688692c Album Name: The Sign (US Album) [Remastered]
+
+SPOTIFY-THIS-SONG REQUEST : Search Term: -better-nowNaN$hadowz 616 // Song's Name: BetterNow // Preview Link: https://p.scdn.co/mp3-preview/2e424d04289e2591b120a5364d6bfbe72e47a4fd?cid=4792344e181a457ca8f6722f7688692c Album Name: DoNotTake
+
+SPOTIFY-THIS-SONG REQUEST : Search Term: NaNBackstreet Boys // Song's Name: I Want It That Way // Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=4792344e181a457ca8f6722f7688692c Album Name: The Hits--Chapter One
+
+SPOTIFY-THIS-SONG REQUEST : Search Term: NaNBackstreet Boys // Song's Name: I Want It That Way // Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=4792344e181a457ca8f6722f7688692c Album Name: The Hits--Chapter One

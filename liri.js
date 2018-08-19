@@ -13,6 +13,9 @@ var request = require("request");
 // required to import node-spotify-api files
 var Spotify = require('node-spotify-api');
 
+// required to convert dates using moment.js
+var moment = require('moment');
+
 // required to retrieve Spotify/OMDB/Bands in Town keys from keys.js file
 var spotify = new Spotify(keys.spotify);
 
@@ -42,7 +45,15 @@ function concertThis(){
         var venueInfo = bITInfo[0].venue;
         console.log("Venue Name: " + venueInfo.name);
         console.log("Venue Location: " + venueInfo.city + "," + venueInfo.region + "," + venueInfo.country);
-        console.log("Date: " + bITInfo[0].datetime);
+        // var to convert date to MM/DD/YYYY format using moent.js
+        var convertedDate = moment(bITInfo[0].datetime, "YYYY-MM-DD[T]HH:mm:ss").format("MM/DD/YY");
+        console.log("Concert Date: " + convertedDate);
+
+        // BONUS: update log.txt file
+        fs.appendFile('log.txt', "\n" + "CONCERT THIS REQUEST: " + "Search Term: " + title + " // " + "Venue Name: " + venueInfo.name + " // " + "Location: " + venueInfo.city + "," + venueInfo.region + "," + venueInfo.country + " // " + "Date: " + convertedDate  + "\n", (err) => {  
+            if (err) throw err;
+            console.log('log.txt updated');
+        });
         console.log("---------------------");
     }
         
@@ -68,6 +79,12 @@ spotify.search({ type: 'track', query: titleNoSpaces }, function(err, data) {
         console.log("Song's Name: " + spotifyInfo[0].name);
         console.log("Preview Link: " + spotifyInfo[0].preview_url);
         console.log("Album Name: " + spotifyInfo[0].album.name);
+        
+        // BONUS: update log.txt file
+        fs.appendFile('log.txt', "\n" + "SPOTIFY-THIS-SONG REQUEST : " + "Search Term: " + title +  + "Artist(s): " + spotifyInfo[0].artists[0].name + " // " + "Song's Name: " + spotifyInfo[0].name + " // " + "Preview Link: " + spotifyInfo[0].preview_url + " " + "Album Name: " + spotifyInfo[0].album.name + "\n", (err) => {  
+            if (err) throw err;
+            console.log('log.txt updated');
+        });
         console.log("---------------------");
       });
     spotify
@@ -90,7 +107,13 @@ function movieThis(){
             console.log("Language: " + oMDBInfo.Language);
             console.log("Plot: " + oMDBInfo.Plot);
             console.log("Actors: " + oMDBInfo.Actors);
-            console.log("---------------------");
+
+            // BONUS: update log.txt file
+            fs.appendFile('log.txt', "\n" + "MOVIE-THIS REQUEST:  " + "Title: : " + oMDBInfo.Title + " // " + "Year: " + oMDBInfo.Year + " // " + "IMDB Rating: " + oMDBInfo.Ratings[0].Value + " // " + "Rotten Tomoatoes Rating: " + oMDBInfo.Ratings[1].Value + " " + "Country of Production: " + oMDBInfo.Country + " " + "Language: " + oMDBInfo.Language + " // " + "Plot: " + oMDBInfo.Plot + " // " + "Actors: " + oMDBInfo.Actors + "\n", (err) => {  
+            if (err) throw err;
+            console.log('log.txt updated');
+        });
+        console.log("---------------------");
         }
             
         else {
@@ -123,7 +146,6 @@ switch (userCmd) {
     case "spotify-this-song":
      // spotify API does not allow dashes in the search string (only spaces or no spaces). This replaces removes all dashes in var title.
     var titleNoSpaces = title.replace(/-/g, "");
-    console.log("titleNopaces: " + titleNoSpaces);
     if (title === "" ) {
         titleNoSpaces = "The Sign Ace of Base"
         }
