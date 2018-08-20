@@ -188,6 +188,9 @@ switch (userCmd) {
       break;
     
     case "movie-this":
+    if (title === "" ) {
+        title = "Mr. Nobody"
+        }
     movieThis();
       break;
 
