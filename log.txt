@@ -1,15 +1,19 @@
 X THIS PAGE LOGS ALL LIRI REQUESTS
 
-MOVIE-THIS REQUEST:  Title: : Mission: Impossible - Ghost Protocol // Year: 2011 // IMDB Rating: 7.4/10 // Rotten Tomoatoes Rating: 93% Country of Production: USA, United Arab Emirates, Czech Republic Language: English, Russian, French, Arabic, Swedish // Plot: The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name. // Actors: Tom Cruise, Paula Patton, Simon Pegg, Jeremy Renner
+CONCERT THIS REQUEST: Search Term: fall-out boy // Venue Name: Reading Festival // Location: Reading,,United Kingdom // Date: 08/24/18
 
-CONCERT THIS REQUEST: Artist: -drake // Venue Name: Scotiabank Arena // Location: Toronto,,Canada // Date: 08/21/18
+CONCERT THIS REQUEST: Search Term:  blink182 // Venue Name: Kelly Slater Wave Co. Surf Ranch // Location: Lemoore,CA,United States // Date: 09/08/18
 
-CONCERT THIS REQUEST: Artist: -taylor-swift // Venue Name: Nissan Stadium // Location: Nashville,TN,United States // Date: 08/25/18
+SPOTIFY-THIS-SONG REQUEST : Search Term:  friendsArtist(s): Marshmello // Song's Name: FRIENDS // Preview Link: https://p.scdn.co/mp3-preview/99b833cf96a8b56040859443d8688a2e322c6667?cid=4792344e181a457ca8f6722f7688692c Album Name: FRIENDS
 
-SPOTIFY-THIS-SONG REQUEST : Search Term: NaNAce of Base // Song's Name: The Sign // Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=4792344e181a457ca8f6722f7688692c Album Name: The Sign (US Album) [Remastered]
+SPOTIFY-THIS-SONG REQUEST : Search Term: in-my feelings // Artist(s): SaJhel // Song's Name: #InMyFeelings // Preview Link: https://p.scdn.co/mp3-preview/85957ef8ee85287449715d887697235ee17f66ce?cid=4792344e181a457ca8f6722f7688692c Album Name: #InMyFeelings
 
-SPOTIFY-THIS-SONG REQUEST : Search Term: -better-nowNaN$hadowz 616 // Song's Name: BetterNow // Preview Link: https://p.scdn.co/mp3-preview/2e424d04289e2591b120a5364d6bfbe72e47a4fd?cid=4792344e181a457ca8f6722f7688692c Album Name: DoNotTake
+SPOTIFY-THIS-SONG REQUEST : Search Term: // Artist(s): Ace of Base // Song's Name: The Sign // Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=4792344e181a457ca8f6722f7688692c Album Name: The Sign (US Album) [Remastered]
 
-SPOTIFY-THIS-SONG REQUEST : Search Term: NaNBackstreet Boys // Song's Name: I Want It That Way // Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=4792344e181a457ca8f6722f7688692c Album Name: The Hits--Chapter One
+MOVIE-THIS REQUEST: Search Term:  drive // Title: Drive // Year: 2011 // IMDB Rating: 7.8/10 // Rotten Tomoatoes Rating: 93% Country of Production: USA Language: English, Spanish // Plot: A mysterious Hollywood stuntman and mechanic moonlights as a getaway driver and finds himself in trouble when he helps out his neighbor. // Actors: Ryan Gosling, Carey Mulligan, Bryan Cranston, Albert Brooks
 
-SPOTIFY-THIS-SONG REQUEST : Search Term: NaNBackstreet Boys // Song's Name: I Want It That Way // Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=4792344e181a457ca8f6722f7688692c Album Name: The Hits--Chapter One
+MOVIE-THIS REQUEST: Search Term: jurassic park // Title: Jurassic Park // Year: 1993 // IMDB Rating: 8.1/10 // Rotten Tomoatoes Rating: 92% Country of Production: USA Language: English, Spanish // Plot: During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok. // Actors: Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough
+
+SPOTIFY-THIS-SONG REQUEST : Search Term: Artist(s): Backstreet Boys // Song's Name: I Want It That Way // Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=4792344e181a457ca8f6722f7688692c Album Name: The Hits--Chapter One
+
+SPOTIFY-THIS-SONG REQUEST : Search Term: Artist(s): Backstreet Boys // Song's Name: I Want It That Way // Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=4792344e181a457ca8f6722f7688692c Album Name: The Hits--Chapter One
